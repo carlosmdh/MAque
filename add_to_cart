@@ -1,6 +1,6 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: 'add_to_cart',                   // Nombre del evento. En este caso, siempre debe ser view_item
+  event: 'add_to_cart',                   // Nombre del evento. En este caso, siempre debe ser add_to_cart
   ecommerce: {                          
     items: [{                           // Comienza una matriz donde se incluira el producto
       item_name: 'Product 1',           // Nombre de producto 1 de la lista
