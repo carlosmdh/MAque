@@ -1,4 +1,5 @@
-window.dataLayer = window.dataLayer || [];
+<script>
+  window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'add_payment_info',              // Nombre del evento. En este caso, siempre debe ser add_payment_info
   ecommerce: {
@@ -25,3 +26,4 @@ window.dataLayer.push({
     }]
   }
 });
+</script>
